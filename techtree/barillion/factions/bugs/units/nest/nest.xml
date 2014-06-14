@@ -1,0 +1,142 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<!-- *** parameters *** -->
+	<parameters>
+		<size value="3"/>
+		<height value="4"/>
+		<max-hp value="6000" regeneration="0"/>
+		<max-ep value="0"/>
+		<armor value="0"/>
+		<armor-type value="organic"/>				
+		<sight value="15"/>
+		<time value="250"/>
+		<multi-selection value="false"/>
+		<cellmap value="true">
+			<row value="101"/> 
+			<row value="101"/> 
+			<row value="101"/> 
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land"/>
+		</fields>
+		<properties>
+		</properties>
+		<light enabled="false"/>
+		<damage-particles value="true">
+			<particle-file path="damage_particles2.xml"/>
+		</damage-particles>
+		<unit-requirements/>
+		<upgrade-requirements/>
+		<resource-requirements>
+			<resource name="krex" amount="150"/>
+			<resource name="stone" amount="150"/>
+			<resource name="wood" amount="50"/>
+		</resource-requirements>
+		<resources-stored>
+		</resources-stored>
+		<image path="images/sheol_temple.bmp" />
+		<image-cancel path="../../common/images/cancel.bmp"/>
+		<meeting-point value="true" image-path="../../common/images/meeting_point.bmp"/>
+		<selection-sounds enabled="true">
+			<sound path="../../common/sounds/click.wav"/>
+		</selection-sounds>
+		<command-sounds enabled="true">
+			<sound path="../../common/sounds/click.wav"/>
+		</command-sounds>
+	</parameters>
+	
+	<!-- *** skills *** -->
+	<skills>
+
+		<skill>
+			<type value="stop" />
+			<name value="stop_skill"/>		
+			<ep-cost value="0" />
+			<speed value="500" />
+			<anim-speed value="100" />
+			<animation path="models/nest.g3d"/>
+			<particles value="false">
+			</particles>
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="be_built"/>
+			<name value="be_built_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="3"/>
+			<anim-progress-bound value="true"/>
+			<animation path="models/sheol_temple_construction.g3d"/>
+			<particles value="false">
+			</particles>
+			<sound enabled="false"/>
+		</skill>	
+			
+
+		<skill>
+			<type value="produce" />
+			<name value="produce_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/nest_produce.g3d" />
+			<particles value="false">
+			</particles>
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="die" />
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="30" />
+			<animation path="models/bugcastle_destruction.g3d" />
+			<sound enabled="true" start-time="0">
+				<sound-file path="../../common/sounds/building_fall2.wav"/>
+			</sound>			
+			<fade value="false"/>
+			<particles value="true" end-time="0.999">
+				<particle-file path="damage_particles.xml"/>
+			</particles>
+			<shake enabled="true" intensity="200" duration="500" start-time="0">
+				<self enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
+				<team enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
+				<enemy enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
+			</shake>
+		</skill>
+	</skills>
+	
+	<!-- *** commands *** -->
+	<commands>
+		<command>
+			<type value="produce"/>
+			<name value="produce_warrior"/>
+			<image path="../warrior/images/daemon.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="warrior"/>
+		</command>
+		<command>
+			<type value="produce"/>
+			<name value="produce_mantis"/>
+			<image path="../mantis/images/daemon.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="mantis"/>
+		</command>
+		<command>
+			<type value="produce"/>
+			<name value="produce_scorpion"/>
+			<image path="../scorpion/images/daemon.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="scorpion"/>
+		</command>
+	</commands>
+</unit>
