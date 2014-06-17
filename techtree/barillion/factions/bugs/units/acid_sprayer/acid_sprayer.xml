@@ -16,8 +16,10 @@
 		<fields>
 			<field value="land"/>
 		</fields>	
-		<properties/>
-			<light enabled="false"/>
+		<properties>
+			<property value="rotated_climb"/>
+		</properties>
+		<light enabled="false"/>
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
@@ -54,8 +56,10 @@
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="375"/>
-			<anim-speed value="240"/>
-			<animation path="models/laserspider_walking.g3d"/>
+			<anim-speed value="290"/>
+			<animation-random-cycle-maxcount value="1" />
+			<animation path="models/acid_move2.g3d"/>
+			<animation path="models/acid_move.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
