@@ -1,22 +1,22 @@
 <?xml version="1.0" standalone="yes"?>
 <projectile-particle-system>
-    	<texture value="true" path="images/spiderwebs.png" luminance="true"/>
+    	<texture value="true" path="images/particle_fog.png" luminance="true"/>
     	<model value="false"/>
+	<mode value="black"/>
 	<primitive value="quad"/>
-	<offset x="0" y="1.1" z="0.75"/>
-	<color red="1.0" green="1.0" blue="1.0" alpha="0.4" />
-	<color-no-energy red="0.8" green="0.8" blue="1" alpha="0.2" />
+	<offset x="0" y="-0.8" z="0.6"/>
+	<color red="0.0" green="1" blue="0.6" alpha="0.6" />
+	<color-no-energy red="0.0" green="0.6" blue="0.4" alpha="0" />
     	<size value="0.1" />
-    	<size-no-energy value="0.1" />
+    	<size-no-energy value="1" />
     	<speed value="1.0" />
-	<gravity value="0.001"/>
-    	<emission-rate value="5" />
-    	<energy-max value="100" />
-    	<energy-var value="20" />
+	<gravity value="0.01"/>
+    	<emission-rate value="1.2" />
+    	<energy-max value="50" />
+    	<energy-var value="8" />
 	
-	<trajectory type="spiral">
-		<speed value="7.0"/>
-		<scale value="0.05"/>
-		<frequency value="6"/>
+	<trajectory type="parabolic">
+		<speed value="10"/>
+		<scale value="0.4"/>
 	</trajectory>
 </projectile-particle-system>
