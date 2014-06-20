@@ -12,9 +12,9 @@
 		<time value="250"/>
 		<multi-selection value="false"/>
 		<cellmap value="true">
-			<row value="111"/> 
 			<row value="101"/> 
-			<row value="111"/> 
+			<row value="101"/> 
+			<row value="101"/> 
 		</cellmap>
 		<levels/>
 		<fields>
@@ -68,7 +68,7 @@
 			<speed value="300"/>
 			<anim-speed value="3"/>
 			<anim-progress-bound value="true"/>
-			<animation path="models/sheol_temple_construction.g3d"/>
+			<animation path="models/bugcastle_bebuilt.g3d"/>
 			<particles value="false">
 			</particles>
 			<sound enabled="false"/>
@@ -137,6 +137,15 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="scorpion"/>
+		</command>
+		<command>
+			<type value="produce"/>
+			<name value="produce_acid_sprayer"/>
+			<image path="../acid_sprayer/images/daemon.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="acid_sprayer"/>
 		</command>
 	</commands>
 </unit>

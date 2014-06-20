@@ -4,7 +4,7 @@
 	<parameters>
 		<size value="3"/>
 		<height value="4"/>
-		<max-hp value="6000" regeneration="0"/>
+		<max-hp value="5000" regeneration="1"/>
 		<max-ep value="0"/>
 		<armor value="0"/>
 		<armor-type value="organic"/>				
@@ -110,30 +110,21 @@
 	<commands>
 		<command>
 			<type value="produce"/>
-			<name value="produce_warrior"/>
-			<image path="../warrior/images/daemon.bmp"/>
+			<name value="produce_wasp"/>
+			<image path="../wasp/images/daemon.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="warrior"/>
+			<produced-unit name="wasp"/>
 		</command>
 		<command>
 			<type value="produce"/>
-			<name value="produce_mantis"/>
-			<image path="../mantis/images/daemon.bmp"/>
+			<name value="produce_dragon_fly"/>
+			<image path="../dragon_fly/images/daemon.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="mantis"/>
-		</command>
-		<command>
-			<type value="produce"/>
-			<name value="produce_scorpion"/>
-			<image path="../scorpion/images/daemon.bmp"/>
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="scorpion"/>
+			<produced-unit name="dragon_fly"/>
 		</command>
 	</commands>
 </unit>

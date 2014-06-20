@@ -110,30 +110,21 @@
 	<commands>
 		<command>
 			<type value="produce"/>
-			<name value="produce_warrior"/>
-			<image path="../warrior/images/daemon.bmp"/>
+			<name value="produce_wasp"/>
+			<image path="../wasp/images/daemon.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="warrior"/>
+			<produced-unit name="wasp"/>
 		</command>
 		<command>
 			<type value="produce"/>
-			<name value="produce_mantis"/>
-			<image path="../mantis/images/daemon.bmp"/>
+			<name value="produce_dragonfly"/>
+			<image path="../dragonfly/images/daemon.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="mantis"/>
-		</command>
-		<command>
-			<type value="produce"/>
-			<name value="produce_scorpion"/>
-			<image path="../scorpion/images/daemon.bmp"/>
-			<unit-requirements />
-			<upgrade-requirements />
-			<produce-skill value="produce_skill"/>
-			<produced-unit name="scorpion"/>
+			<produced-unit name="dragonfly"/>
 		</command>
 	</commands>
 </unit>

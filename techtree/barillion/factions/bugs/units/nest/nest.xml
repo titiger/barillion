@@ -138,5 +138,14 @@
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="scorpion"/>
 		</command>
+		<command>
+			<type value="produce"/>
+			<name value="produce_acid_sprayer"/>
+			<image path="../acid_sprayer/images/daemon.bmp"/>
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="acid_sprayer"/>
+		</command>
 	</commands>
 </unit>
