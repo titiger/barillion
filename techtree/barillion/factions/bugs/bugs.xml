@@ -14,6 +14,7 @@
 		<unit name="warrior" amount="3"/>
 		<unit name="brain" amount="1"/>
 		<unit name="dragonfly" amount="1"/>
+		<unit name="wasp" amount="1"/>
 		<unit name="spiderlaser" amount="1"/>
 		<unit name="support_spider" amount="1"/>
 		<unit name="airbase" amount="1"/>
