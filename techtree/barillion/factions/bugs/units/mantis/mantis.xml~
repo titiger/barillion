@@ -6,7 +6,7 @@
 		<height value="2"/>
 		<max-hp value="700" regeneration="2"/>
 		<max-ep value="0"/>
-		<armor value="40"/>	
+		<armor value="80"/>	
 		<armor-type value="organic"/>
 		<sight value="12"/>
 		<time value="25"/>	
@@ -45,10 +45,11 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="40"/>
-			<animation path="models/warrior_idle.g3d"/>
-			<animation path="models/warrior_idle_2.g3d"/>
-			<animation path="models/warrior_idle_3.g3d"/>
-			<animation path="models/warrior_idle_4.g3d"/>
+			<animation path="models/mantis.g3d"/>
+			<animation path="models/mantis.g3d"/>
+			<animation path="models/mantis_stand.g3d"/>
+			<animation path="models/mantis.g3d"/>
+			<animation path="models/mantis.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -57,8 +58,8 @@
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="375"/>
-			<anim-speed value="240"/>
-			<animation path="models/warrior_walk.g3d"/>
+			<anim-speed value="285"/>
+			<animation path="models/mantis_move.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -67,8 +68,8 @@
 			<name value="attack_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="100"/>
-			<anim-speed value="100"/>
-			<animation path="models/warrior_attack.g3d"/>
+			<anim-speed value="70"/>
+			<animation path="models/mantis_attack2.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/bug1.wav"/>
 			</sound> 
