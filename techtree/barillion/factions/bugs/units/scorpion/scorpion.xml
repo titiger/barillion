@@ -100,10 +100,9 @@
 			<name value="die_skill"/>		
 			<ep-cost value="0"/>
 			<speed value="120"/>
-			<anim-speed value="100"/>
+			<anim-speed value="80"/>
 			<animation-random-cycle-maxcount value="1" />
-			<animation path="models/warrior_die.g3d"/>
-			<animation path="models/warrior_die2.g3d"/>
+			<animation path="models/scorpio_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/bug1.wav"/>
 			</sound>			
