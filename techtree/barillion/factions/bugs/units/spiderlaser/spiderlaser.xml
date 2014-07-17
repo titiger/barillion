@@ -69,11 +69,6 @@
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/bug1.wav"/>
 			</sound> 
-			<shake enabled="true" intensity="1000" duration="40" start-time="0.5">
-				<self enabled="false" visible="true" in-camera-view="true" camera-distance-affected="true"/>
-				<team enabled="false" visible="true" in-camera-view="true" camera-distance-affected="true"/>
-				<enemy enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
-			</shake>
 			<attack-strenght value="90"/>
 			<attack-var value="40"/>
 			<attack-range value="8"/>
