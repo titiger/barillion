@@ -3,7 +3,7 @@
 	<!-- *** parameters *** -->
 	<parameters>
 		<size value="3"/>
-		<height value="4"/>
+		<height value="2"/>
 		<max-hp value="6000" regeneration="0"/>
 		<max-ep value="0"/>
 		<armor value="0"/>
@@ -68,8 +68,9 @@
 			<speed value="300"/>
 			<anim-speed value="3"/>
 			<anim-progress-bound value="true"/>
-			<animation path="models/sheol_temple_construction.g3d"/>
-			<particles value="false">
+			<animation path="models/nest_bebuilt.g3d"/>
+			<particles value="true">
+				<particle-file path="damage_particles.xml"/>
 			</particles>
 			<sound enabled="false"/>
 		</skill>	
@@ -93,7 +94,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="30" />
-			<animation path="models/bugcastle_destruction.g3d" />
+			<animation path="models/nest_die.g3d" />
 			<sound enabled="true" start-time="0">
 				<sound-file path="../../common/sounds/building_fall2.wav"/>
 			</sound>			
@@ -101,7 +102,7 @@
 			<particles value="true" end-time="0.999">
 				<particle-file path="damage_particles.xml"/>
 			</particles>
-			<shake enabled="true" intensity="200" duration="500" start-time="0">
+			<shake enabled="true" intensity="100" duration="500" start-time="0">
 				<self enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
 				<team enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
 				<enemy enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
