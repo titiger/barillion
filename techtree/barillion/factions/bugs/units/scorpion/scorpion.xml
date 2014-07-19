@@ -73,7 +73,12 @@
 			<animation path="models/scorpio_attack.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/bug1.wav"/>
-			</sound> 
+			</sound>
+			<shake enabled="true" intensity="10" duration="20" start-time="0">
+				<self enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
+				<team enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
+				<enemy enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
+			</shake> 
 			<attack-strenght value="49"/>
 			<attack-var value="40"/>
 			<attack-range value="8"/>
