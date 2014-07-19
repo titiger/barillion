@@ -1,14 +1,14 @@
 <?xml version="1.0" standalone="no"?>
 
 <upgrade>
-	<image path="images/acid.bmp"/>
+	<image path="images/web.bmp"/>
 	<image-cancel path="../dark_sorcery/images/dark_magic_upgrade_cancel.bmp"/>
-	<time value="150"/>
+	<time value="50"/>
 	<unit-requirements/>
 	<upgrade-requirements/>
 	<resource-requirements>
-		<resource name="wood" amount="200"/>
-		<resource name="krex" amount="100"/>
+		<resource name="wood" amount="100"/>
+		<resource name="krex" amount="50"/>
 	</resource-requirements>
 	<effects/>
 	<max-hp value="0"/>

@@ -19,9 +19,12 @@
 		<properties/>
 			<light enabled="false"/>
 		<unit-requirements/>
-		<upgrade-requirements/>
+		<upgrade-requirements>
+			<upgrade name="web"/>
+		</upgrade-requirements>
 		<resource-requirements>
-			<resource name="krex" amount="50"/>
+			<resource name="krex" amount="100"/>
+			<resource name="wood" amount="50"/>
 			<resource name="energy" amount="1"/>				
 		</resource-requirements>
 		<resources-stored/>
@@ -69,12 +72,13 @@
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/bug1.wav"/>
 			</sound> 
-			<attack-strenght value="90"/>
+			<attack-strenght value="120"/>
 			<attack-var value="40"/>
 			<attack-range value="8"/>
 			<attack-type value="web"/>
 			<attack-fields>
 				<field value="land"/>
+				<field value="air"/>
 			</attack-fields>
 			<attack-start-time value="0.25"/>
 			<projectile value="true">

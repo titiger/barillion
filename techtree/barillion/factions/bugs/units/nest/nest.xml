@@ -4,12 +4,12 @@
 	<parameters>
 		<size value="3"/>
 		<height value="2"/>
-		<max-hp value="6000" regeneration="0"/>
+		<max-hp value="4500" regeneration="0"/>
 		<max-ep value="0"/>
 		<armor value="0"/>
 		<armor-type value="earth"/>				
 		<sight value="15"/>
-		<time value="250"/>
+		<time value="100"/>
 		<multi-selection value="false"/>
 		<cellmap value="true">
 			<row value="101"/> 
@@ -29,9 +29,9 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="krex" amount="150"/>
-			<resource name="stone" amount="150"/>
-			<resource name="wood" amount="50"/>
+			<resource name="krex" amount="100"/>
+			<resource name="stone" amount="250"/>
+			<resource name="wood" amount="200"/>
 		</resource-requirements>
 		<resources-stored>
 		</resources-stored>
@@ -89,6 +89,16 @@
 		</skill>	
 		
 		<skill>
+			<type value="upgrade" />
+			<name value="upgrade_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/nest.g3d"/>
+			<sound enabled="false"/>
+		</skill>
+
+		<skill>
 			<type value="die" />
 			<name value="die_skill"/>		
 			<ep-cost value="0" />
@@ -123,21 +133,21 @@
 		</command>
 		<command>
 			<type value="produce"/>
-			<name value="produce_mantis"/>
-			<image path="../mantis/images/daemon.bmp"/>
+			<name value="produce_spiderlaser"/>
+			<image path="../warrior/images/daemon.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="mantis"/>
+			<produced-unit name="spiderlaser"/>
 		</command>
 		<command>
 			<type value="produce"/>
-			<name value="produce_scorpion"/>
-			<image path="../scorpion/images/daemon.bmp"/>
+			<name value="produce_spider_with_support_web"/>
+			<image path="../warrior/images/daemon.bmp"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="scorpion"/>
+			<produced-unit name="support_spider"/>
 		</command>
 		<command>
 			<type value="produce"/>
@@ -147,6 +157,15 @@
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
 			<produced-unit name="acid_sprayer"/>
+		</command>
+    		<command>
+			<type value="upgrade"/>
+			<name value="invent_webs"/>
+			<image path="../../upgrades/web/images/web.bmp" />
+			<unit-requirements/>
+			<upgrade-requirements/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="web"/>
 		</command>
 	</commands>
 </unit>

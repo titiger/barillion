@@ -3,27 +3,27 @@
 <faction>
 	<starting-resources>
 		<resource name="krex" amount="500"/>
-		<resource name="wood" amount="300"/>	
-		<resource name="stone" amount="400"/>
+		<resource name="wood" amount="600"/>	
+		<resource name="stone" amount="750"/>
 		<resource name="energy" amount="15"/>		
 	</starting-resources>
 	<starting-units>
 		<unit name="mother" amount="1"/>
-		<unit name="nest" amount="1"/>
-		<unit name="worker" amount="1"/>
-		<unit name="warrior" amount="3"/>
-		<unit name="brain" amount="1"/>
-		<unit name="dragonfly" amount="1"/>
-		<unit name="wasp" amount="1"/>
+		<unit name="nest" amount="0"/>
+		<unit name="worker" amount="2"/>
+		<unit name="warrior" amount="1"/>
+		<unit name="brain" amount="0"/>
+		<unit name="dragonfly" amount="0"/>
+		<unit name="wasp" amount="0"/>
 		<unit name="spiderlaser" amount="1"/>
-		<unit name="support_spider" amount="1"/>
-		<unit name="airbase" amount="1"/>
-		<unit name="farm" amount="1"/>
-		<unit name="louse" amount="6"/>
-		<unit name="mantis" amount="1"/>
-		<unit name="scorpion" amount="1"/>
-		<unit name="acid_sprayer" amount="1"/>
-		<unit name="bugcastle" amount="1"/>
+		<unit name="support_spider" amount="0"/>
+		<unit name="airbase" amount="0"/>
+		<unit name="farm" amount="0"/>
+		<unit name="louse" amount="1"/>
+		<unit name="mantis" amount="0"/>
+		<unit name="scorpion" amount="0"/>
+		<unit name="acid_sprayer" amount="0"/>
+		<unit name="bugcastle" amount="0"/>
 	</starting-units>	
 	<music value="true" path="music/the_dark_amulet.ogg"/>
 </faction>

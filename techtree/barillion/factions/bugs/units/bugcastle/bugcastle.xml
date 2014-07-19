@@ -9,7 +9,7 @@
 		<armor value="0"/>
 		<armor-type value="earth"/>				
 		<sight value="15"/>
-		<time value="250"/>
+		<time value="100"/>
 		<multi-selection value="false"/>
 		<cellmap value="true">
 			<row value="101"/> 
@@ -26,12 +26,14 @@
 		<damage-particles value="true">
 			<particle-file path="damage_particles2.xml"/>
 		</damage-particles>
-		<unit-requirements/>
+		<unit-requirements>
+			<unit name="nest"/>
+		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="krex" amount="150"/>
-			<resource name="stone" amount="150"/>
-			<resource name="wood" amount="50"/>
+			<resource name="stone" amount="550"/>
+			<resource name="wood" amount="150"/>
 		</resource-requirements>
 		<resources-stored>
 		</resources-stored>

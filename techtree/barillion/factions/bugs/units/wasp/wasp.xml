@@ -21,7 +21,8 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="krex" amount="50"/>
+			<resource name="krex" amount="85"/>
+			<resource name="wood" amount="25"/>
 			<resource name="energy" amount="1"/>				
 		</resource-requirements>
 		<resources-stored/>
@@ -69,7 +70,7 @@
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/bug1.wav"/>
 			</sound> 
-			<attack-strenght value="70"/>
+			<attack-strenght value="40"/>
 			<attack-var value="10"/>
 			<attack-range value="5"/>
 			<attack-type value="piercing"/>

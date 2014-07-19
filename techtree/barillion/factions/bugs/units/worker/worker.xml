@@ -9,7 +9,7 @@
 		<armor value="0"/>	
 		<armor-type value="skin"/>				
 		<sight value="9"/>
-		<time value="38"/>	
+		<time value="30"/>	
 		<multi-selection value="true"/>	
 		<cellmap value="false"/>
 		<levels/>
@@ -78,9 +78,9 @@
 			<type value="move"/>
 			<name value="move_mining_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="150"/>
-			<anim-speed value="100"/>
-			<animation path="models/acolyte_walking_gold.g3d"/>
+			<speed value="200"/>
+			<anim-speed value="200"/>
+			<animation path="models/worker_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -88,9 +88,9 @@
 			<type value="move"/>
 			<name value="move_harvesting_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="150"/>
-			<anim-speed value="100"/>
-			<animation path="models/acolyte_walking_harvesting.g3d"/>
+			<speed value="200"/>
+			<anim-speed value="200"/>
+			<animation path="models/worker_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -98,9 +98,9 @@
 			<type value="move"/>
 			<name value="move_loaded_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="130"/>
-			<anim-speed value="120"/>
-			<animation path="models/acolyte_walking_loaded.g3d"/>
+			<speed value="170"/>
+			<anim-speed value="170"/>
+			<animation path="models/worker_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -108,9 +108,9 @@
 			<type value="move"/>
 			<name value="move_loaded_wood_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="130"/>
-			<anim-speed value="120"/>
-			<animation path="models/acolyte_walking_loaded_wood.g3d"/>
+			<speed value="170"/>
+			<anim-speed value="170"/>
+			<animation path="models/worker_walk.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -140,7 +140,7 @@
 			<type value="harvest"/>
 			<name value="mine_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="200"/>
+			<speed value="400"/>
 			<anim-speed value="100"/>
 			<animation path="models/worker_harvest.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -155,7 +155,7 @@
 			<type value="harvest"/>
 			<name value="harvest_wood_skill"/>		
 			<ep-cost value="0"/>
-			<speed value="150"/>
+			<speed value="300"/>
 			<anim-speed value="70"/>
 			<animation path="models/acolyte_harvesting_wood.g3d"/>
 			<sound enabled="true" start-time="0">
@@ -248,10 +248,11 @@
 			<move-skill value="move_skill"/>
 			<build-skill value="build_skill"/>
 			<buildings>
-				<building name="mother"/>
 				<building name="nest"/>
 				<building name="farm"/>
+				<building name="bugcastle"/>
 				<building name="airbase"/>
+				<building name="mother"/>
 			</buildings>
 			<start-sound enabled="false"/>
 			<built-sound enabled="false"/>
@@ -266,10 +267,11 @@
 			<move-skill value="move_skill"/>
 			<repair-skill value="repair_skill"/>
 			<repaired-units>	
-				<unit name="mother"/>	
 				<unit name="nest"/>	
 				<unit name="farm"/>	
+				<unit name="bugcastle"/>	
 				<unit name="airbase"/>	
+				<unit name="mother"/>	
 			</repaired-units>		
 		</command>
 	</commands>

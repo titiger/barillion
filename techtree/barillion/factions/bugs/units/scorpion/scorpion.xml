@@ -23,7 +23,8 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="krex" amount="50"/>
+			<resource name="krex" amount="200"/>
+			<resource name="stone" amount="50"/>
 			<resource name="energy" amount="1"/>				
 		</resource-requirements>
 		<resources-stored/>
@@ -74,7 +75,7 @@
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/bug1.wav"/>
 			</sound>
-			<shake enabled="true" intensity="10" duration="20" start-time="0">
+			<shake enabled="true" intensity="30" duration="20" start-time="0">
 				<self enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
 				<team enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>
 				<enemy enabled="true" visible="true" in-camera-view="true" camera-distance-affected="true"/>

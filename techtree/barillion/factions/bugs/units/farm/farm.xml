@@ -9,7 +9,7 @@
 		<armor value="0"/>
 		<armor-type value="organic"/>				
 		<sight value="15"/>
-		<time value="250"/>
+		<time value="100"/>
 		<multi-selection value="false"/>
 		<cellmap value="false">
 			<row value="101"/> 
@@ -27,8 +27,8 @@
 		<unit-requirements/>
 		<upgrade-requirements/>
 		<resource-requirements>
-			<resource name="krex" amount="150"/>
-			<resource name="stone" amount="350"/>
+			<resource name="krex" amount="50"/>
+			<resource name="stone" amount="250"/>
 			<resource name="wood" amount="150"/>
 		</resource-requirements>
 		<resources-stored>

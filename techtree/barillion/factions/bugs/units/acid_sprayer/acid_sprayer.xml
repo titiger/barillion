@@ -21,7 +21,9 @@
 		</properties>
 		<light enabled="false"/>
 		<unit-requirements/>
-		<upgrade-requirements/>
+		<upgrade-requirements>
+			<upgrade name="acid"/>
+		</upgrade-requirements>
 		<resource-requirements>
 			<resource name="krex" amount="50"/>
 			<resource name="energy" amount="1"/>				
