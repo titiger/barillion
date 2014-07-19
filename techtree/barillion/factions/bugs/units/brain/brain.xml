@@ -7,7 +7,7 @@
 		<max-hp value="1200" regeneration="0"/>
 		<max-ep value="0"/>
 		<armor value="10"/>	
-		<armor-type value="organic"/>
+		<armor-type value="skin"/>
 		<sight value="12"/>
 		<time value="25"/>	
 		<multi-selection value="true"/>	

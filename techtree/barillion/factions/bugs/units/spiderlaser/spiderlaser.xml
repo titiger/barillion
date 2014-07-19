@@ -7,7 +7,7 @@
 		<max-hp value="850" regeneration="0"/>
 		<max-ep value="0"/>
 		<armor value="10"/>	
-		<armor-type value="organic"/>
+		<armor-type value="chitin"/>
 		<sight value="12"/>
 		<time value="25"/>	
 		<multi-selection value="true"/>	
@@ -72,7 +72,7 @@
 			<attack-strenght value="90"/>
 			<attack-var value="40"/>
 			<attack-range value="8"/>
-			<attack-type value="bite"/>
+			<attack-type value="web"/>
 			<attack-fields>
 				<field value="land"/>
 			</attack-fields>

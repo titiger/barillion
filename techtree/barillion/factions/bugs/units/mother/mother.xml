@@ -7,7 +7,7 @@
 		<max-hp value="15000" regeneration="0"/>
 		<max-ep value="0"/>
 		<armor value="0"/>
-		<armor-type value="organic"/>				
+		<armor-type value="chitin"/>				
 		<sight value="15"/>
 		<time value="250"/>
 		<multi-selection value="false"/>
@@ -58,10 +58,9 @@
 			<ep-cost value="0" />
 			<speed value="500" />
 			<anim-speed value="100" />
-			<animation path="models/grub.g3d"/>
-			<particles value="false">
-				<particle-file path="smoke_particles1.xml"/>
-				<particle-file path="smoke_particles2.xml"/>
+			<animation path="models/mother.g3d"/>
+			<particles value="true">
+				<particle-file path="glow.xml"/>
 			</particles>
 			<sound enabled="false" />
 		</skill>
@@ -88,11 +87,10 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/grub.g3d" />
+			<animation path="models/mother.g3d" />
 			<particles value="true">
-				<particle-file path="smoke_particles1.xml"/>
-				<particle-file path="smoke_particles2.xml"/>
-				<particle-file path="smoke_aura.xml"/>
+				<particle-file path="produce.xml"/>
+				<particle-file path="glow.xml"/>
 			</particles>
 			<sound enabled="false" />
 		</skill>	

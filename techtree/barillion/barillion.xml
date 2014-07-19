@@ -5,13 +5,41 @@
 	
 	<attack-types>
 		<attack-type name="bite"/>
+		<attack-type name="acid"/>
+		<attack-type name="web"/>
+		<attack-type name="piercing"/>
 	</attack-types>
 	
 	<armor-types>
+<!--Units-->
+		<armor-type name="skin"/>
+		<armor-type name="chitin"/>
+
+<!--Buildings-->
+		<armor-type name="earth"/>
 		<armor-type name="organic"/>
 	</armor-types>
 	
 	<damage-multipliers>
-		<damage-multiplier attack="bite" armor="organic" value="1"/>
+		<damage-multiplier attack="bite" armor="skin" value="1.1"/>
+		<damage-multiplier attack="bite" armor="chitin" value="1"/>
+		<damage-multiplier attack="bite" armor="earth" value="0.7"/>
+		<damage-multiplier attack="bite" armor="organic" value="0.7"/>
+
+		<damage-multiplier attack="piercing" armor="skin" value="1.1"/>
+		<damage-multiplier attack="piercing" armor="chitin" value="0.9"/>
+		<damage-multiplier attack="piercing" armor="earth" value="0.8"/>
+		<damage-multiplier attack="piercing" armor="organic" value="0.7"/>
+
+		<damage-multiplier attack="web" armor="skin" value="1.2"/>
+		<damage-multiplier attack="web" armor="chitin" value="1.2"/>
+		<damage-multiplier attack="web" armor="earth" value="0.5"/>
+		<damage-multiplier attack="web" armor="organic" value="0.5"/>
+
+		<damage-multiplier attack="acid" armor="skin" value="1"/>
+		<damage-multiplier attack="acid" armor="chitin" value="1"/>
+		<damage-multiplier attack="acid" armor="earth" value="0.5"/>
+		<damage-multiplier attack="acid" armor="organic" value="0.5"/>
+
 	</damage-multipliers>
 </tech-tree>
