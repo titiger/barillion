@@ -12,7 +12,7 @@
 		<unit name="nest" amount="0"/>
 		<unit name="worker" amount="2"/>
 		<unit name="warrior" amount="1"/>
-		<unit name="brain" amount="0"/>
+		<unit name="brainbug" amount="0"/>
 		<unit name="dragonfly" amount="0"/>
 		<unit name="wasp" amount="0"/>
 		<unit name="spiderlaser" amount="1"/>

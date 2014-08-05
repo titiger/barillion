@@ -4,10 +4,10 @@
 	<parameters>
 		<size value="2"/>
 		<height value="2"/>
-		<max-hp value="500" regeneration="0"/>
+		<max-hp value="1200" regeneration="0"/>
 		<max-ep value="0"/>
 		<armor value="10"/>	
-		<armor-type value="organic"/>
+		<armor-type value="skin"/>
 		<sight value="12"/>
 		<time value="25"/>	
 		<multi-selection value="true"/>	
@@ -18,7 +18,9 @@
 		</fields>	
 		<properties/>
 			<light enabled="false"/>
-		<unit-requirements/>
+		<unit-requirements>
+			<unit name="nest"/>
+		</unit-requirements>
 		<upgrade-requirements/>
 		<resource-requirements>
 			<resource name="krex" amount="50"/>
@@ -50,6 +52,20 @@
 		</skill>
 		
 		<skill>
+			<type value="be_built"/>
+			<name value="be_built_skill"/>		
+			<ep-cost value="0"/>
+			<speed value="300"/>
+			<anim-speed value="3"/>
+			<anim-progress-bound value="true"/>
+			<animation path="models/brainbug_stand.g3d"/>
+			<particles value="false">
+				<particle-file path="damage_particles.xml"/>
+			</particles>
+			<sound enabled="false"/>
+		</skill>	
+			
+		<skill>
 			<type value="move"/>
 			<name value="move_skill"/>		
 			<ep-cost value="0"/>
@@ -60,27 +76,15 @@
 		</skill>
 
 		<skill>
-			<type value="attack"/>
-			<name value="attack_skill"/>		
-			<ep-cost value="0"/>
-			<speed value="100"/>
-			<anim-speed value="100"/>
-			<animation path="models/warrior_attack.g3d"/>
-			<sound enabled="true" start-time="0.5">
-				<sound-file path="sounds/bug1.wav"/>
-			</sound> 
-			<attack-strenght value="90"/>
-			<attack-var value="40"/>
-			<attack-range value="1"/>
-			<attack-type value="bite"/>
-			<attack-fields>
-				<field value="land"/>
-			</attack-fields>
-			<attack-start-time value="0.3"/>
-			<projectile value="false"/>
-			<splash value="false"/>
+			<type value="upgrade" />
+			<name value="upgrade_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="100" />
+			<animation path="models/brainbug_stand.g3d"/>
+			<sound enabled="false"/>
 		</skill>
-	
+
 		<skill>
 			<type value="die"/>
 			<name value="die_skill"/>		
@@ -117,15 +121,14 @@
 			<move-skill value="move_skill"/>
 		</command>
 
-		<command>
-			<type value="attack"/>
-			<name value="attack"/>
-			<image path="images/daemon_attack.bmp"/>
+   		<command>
+			<type value="upgrade"/>
+			<name value="upgrade_chitin"/>
+			<image path="../../upgrades/chitin/images/chitin.bmp" />
 			<unit-requirements/>
 			<upgrade-requirements/>
-			<move-skill value="move_skill"/>
-			<attack-skill value="attack_skill"/>
+			<upgrade-skill value="upgrade_skill"/>
+			<produced-upgrade name="chitin"/>
 		</command>
-
 	</commands>
 </unit>
