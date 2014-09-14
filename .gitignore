@@ -1,0 +1,37 @@
+## Linux
+*~
+# Vim
+*.un~
+Session.vim
+# KDevelop
+*.kdev4
+# Meld
+*.orig
+
+## OSX
+Icon
+
+## Windows
+*.old
+# Windows image file caches
+Thumbs.db
+thumbs.db
+ehthumbs.db
+# Folder config file
+Desktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+
+
+## Git
+!.git
+!.gitignore
+!.gitattributes
+!.gitmodules
+
+## Repo
+*.blend1
+*.blend2
+
+
