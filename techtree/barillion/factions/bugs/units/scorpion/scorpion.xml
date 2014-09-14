@@ -48,7 +48,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="40"/>
-			<animation path="models/scorpio_animate2.g3d"/>
+			<animation path="models/scorpion_stand.g3d"/>
 			<particles value="true">
 				<particle-file path="smoke_particles1.xml" start-time="0.28" end-time="0.5"/>
 				<particle-file path="smoke_particles1.xml" start-time="0.8"/>
@@ -62,7 +62,7 @@
 			<ep-cost value="0"/>
 			<speed value="375"/>
 			<anim-speed value="310"/>
-			<animation path="models/scorpio_move.g3d"/>
+			<animation path="models/scorpion_move.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -72,7 +72,7 @@
 			<ep-cost value="0"/>
 			<speed value="700"/>
 			<anim-speed value="700"/>
-			<animation path="models/scorpio_attack.g3d"/>
+			<animation path="models/scorpion_attack.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/bug1.wav"/>
 			</sound>
@@ -109,7 +109,7 @@
 			<speed value="120"/>
 			<anim-speed value="80"/>
 			<animation-random-cycle-maxcount value="1" />
-			<animation path="models/scorpio_die.g3d"/>
+			<animation path="models/scorpion_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/bug1.wav"/>
 			</sound>			

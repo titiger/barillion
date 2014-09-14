@@ -2,7 +2,7 @@
 
 <unit>
 	<parameters>
-		<size value="1"/>
+		<size value="2"/>
 		<height value="2"/>
 		<max-hp value="1800" regeneration="12"/>
 		<max-ep value="0"/>
@@ -46,11 +46,11 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="55"/>
-			<animation path="models/tankbug6.g3d"/>
-			<animation path="models/tankbug6.g3d"/>
-			<animation path="models/tankbug_attack.g3d"/>
-			<animation path="models/tankbug6.g3d"/>
-			<animation path="models/tankbug6.g3d"/>
+			<animation path="models/tankbug_standing1.g3d"/>
+			<animation path="models/tankbug_standing1.g3d"/>
+			<animation path="models/tankbug_standing2.g3d"/>
+			<animation path="models/tankbug_standing1.g3d"/>
+			<animation path="models/tankbug_standing1.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -73,11 +73,11 @@
 			<ep-cost value="0"/>
 			<speed value="100"/>
 			<anim-speed value="110"/>
+			<animation path="models/tankbug_attack1.g3d"/>
 			<animation path="models/tankbug_attack2.g3d"/>
 			<animation path="models/tankbug_attack3.g3d"/>
 			<animation path="models/tankbug_attack4.g3d"/>
-			<animation path="models/tankbug_attack5.g3d"/>
-			<animation path="models/tankbug_attack2.g3d"/>
+			<animation path="models/tankbug_attack1.g3d"/>
 			<sound enabled="true" start-time="0.5">
 				<sound-file path="sounds/bug1.wav"/>
 			</sound> 
