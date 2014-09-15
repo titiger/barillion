@@ -33,7 +33,7 @@
 		</resource-requirements>
 		<resources-stored>
 		</resources-stored>
-		<image path="images/sheol_temple.bmp" />
+		<image path="images/icon.png" />
 		<image-cancel path="../../common/images/cancel.bmp"/>
 		<meeting-point value="true" image-path="../../common/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
@@ -104,7 +104,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_louse"/>
-			<image path="../louse/images/daemon.bmp"/>
+			<image path="../louse/images/icon.png"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
