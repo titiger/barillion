@@ -37,7 +37,7 @@
 		</resource-requirements>
 		<resources-stored>
 		</resources-stored>
-		<image path="images/sheol_temple.bmp" />
+		<image path="images/icon.png" />
 		<image-cancel path="../../common/images/cancel.bmp"/>
 		<meeting-point value="true" image-path="../../common/images/meeting_point.bmp"/>
 		<selection-sounds enabled="true">
@@ -116,7 +116,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_warrior"/>
-			<image path="../warrior/images/daemon.bmp"/>
+			<image path="../warrior/images/icon.png"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
@@ -125,7 +125,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_mantis"/>
-			<image path="../mantis/images/daemon.bmp"/>
+			<image path="../mantis/images/icon.png"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
@@ -134,7 +134,7 @@
 		<command>
 			<type value="produce"/>
 			<name value="produce_scorpion"/>
-			<image path="../scorpion/images/daemon.bmp"/>
+			<image path="../scorpion/images/icon.png"/>
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
