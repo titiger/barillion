@@ -2,16 +2,20 @@
 
 <unit>
 	<parameters>
-		<size value="2"/>
+		<size value="3"/>
 		<height value="2"/>
-		<max-hp value="1200" regeneration="0"/>
+		<max-hp value="5200" regeneration="0"/>
 		<max-ep value="0"/>
 		<armor value="10"/>	
 		<armor-type value="skin"/>
 		<sight value="12"/>
 		<time value="25"/>	
-		<multi-selection value="true"/>	
-		<cellmap value="false"/>
+		<multi-selection value="false"/>	
+		<cellmap value="true">
+			<row value="111"/> 
+			<row value="111"/> 
+			<row value="000"/> 
+		</cellmap>
 		<levels/>
 		<fields>
 			<field value="land"/>
@@ -47,7 +51,7 @@
 			<ep-cost value="0"/>
 			<speed value="1000"/>
 			<anim-speed value="17"/>
-			<animation path="models/brainbug_stand.g3d"/>
+			<animation path="models/brainbugcave_stand.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 		
@@ -58,7 +62,7 @@
 			<speed value="300"/>
 			<anim-speed value="3"/>
 			<anim-progress-bound value="true"/>
-			<animation path="models/brainbug_stand.g3d"/>
+			<animation path="models/brainbugcave_bebuilt.g3d"/>
 			<particles value="false">
 				<particle-file path="damage_particles.xml"/>
 			</particles>
@@ -81,7 +85,8 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="100" />
-			<animation path="models/brainbug_stand.g3d"/>
+			<anim-progress-bound value="true"/>
+			<animation path="models/brainbugcave_upgrade.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
@@ -91,9 +96,7 @@
 			<ep-cost value="0"/>
 			<speed value="120"/>
 			<anim-speed value="100"/>
-			<animation-random-cycle-maxcount value="1" />
-			<animation path="models/warrior_die.g3d"/>
-			<animation path="models/warrior_die2.g3d"/>
+			<animation path="models/brainbugcave_die.g3d"/>
 			<sound enabled="true" start-time="0">
 				<sound-file path="sounds/bug1.wav"/>
 			</sound>			
