@@ -4,7 +4,7 @@
     	<model value="false"/>
 	<mode value="black"/>
 	<primitive value="quad"/>
-	<offset x="0" y="-0.8" z="0.6"/>
+	<offset x="0" y="-0.73" z="0.6"/>
 	<color red="0.0" green="1" blue="0.6" alpha="0.6" />
 	<color-no-energy red="0.0" green="0.6" blue="0.4" alpha="0" />
     	<size value="0.1" />

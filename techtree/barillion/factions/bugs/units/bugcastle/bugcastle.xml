@@ -70,7 +70,7 @@
 			<speed value="300"/>
 			<anim-speed value="3"/>
 			<anim-progress-bound value="true"/>
-			<animation path="models/sheol_temple_construction.g3d"/>
+			<animation path="models/construction.g3d"/>
 			<particles value="false">
 			</particles>
 			<sound enabled="false"/>
@@ -95,7 +95,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="30" />
-			<animation path="models/bugcastle_destruction.g3d" />
+			<animation path="models/destruction.g3d" />
 			<sound enabled="true" start-time="0">
 				<sound-file path="../../common/sounds/building_fall2.wav"/>
 			</sound>			
