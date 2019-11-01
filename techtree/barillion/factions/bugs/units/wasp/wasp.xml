@@ -56,10 +56,10 @@
 			<ep-cost value="0"/>
 			<speed value="500"/>
 			<anim-speed value="200"/>
-			<animation path="models/wasp-titi_son.g3d"/>
-			<animation path="models/wasp-flying.g3d"/>
-			<animation path="models/wasp-flying2.g3d"/>
-			<animation path="models/wasp-titi_son.g3d"/>
+			<animation path="models/wasp_titi_son.g3d"/>
+			<animation path="models/wasp_flying.g3d"/>
+			<animation path="models/wasp_flying2.g3d"/>
+			<animation path="models/wasp_titi_son.g3d"/>
 			<sound enabled="false"/>
 		</skill>
 
